@@ -1,0 +1,32 @@
+/* Styles.css */
+ul.socials{
+  color: white;
+}
+
+ul.socials li{
+  font-size: 25px;
+  padding-right: 10px;
+  display: inline;
+}
+
+.navbar ul li{
+  display: inline;
+  text-align: center;
+}
+
+a:link,
+a:visited{
+  color: white;
+}
+
+.second-row{
+  padding-top: 10px;
+}
+
+@media (max-width: 995px){
+  ul.socials{
+    display: none;
+    /* This is a test */
+    /* This is another test */
+  }
+}

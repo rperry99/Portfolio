@@ -1,0 +1,178 @@
+<!-- index.html -->
+<html>
+    <head>
+        <title>Russ Perry | Web Dev</title>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!-- Style Sheets -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-Dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">RP</a>
+          <button class="navbar-toggler navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav socials ml-auto">
+              <li><a href="https://twitter.com/russp999"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/russ-perry-22b638a8/"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- About Me -->
+      <article id="about">
+        <div class="container">
+            <h1>About Me</h1>
+            <hr>
+            <div class="row">
+              <div class="col-md-8">
+                <p>My name is Russ Perry. I am a front end web developer. I graduated from Kent State University with my Bachelors in Technical and Applied Studies focusing on software development.</p>
+                <p>Some of the skills I have include:</p>
+                <ul>
+                  <li>HTML/CSS &amp; HTML5/CSS3</li>
+                  <li>JavaScript / jQuery</li>
+                  <li>Bootstrap</li>
+                  <li>Git Repositores</li>
+                </ul>
+                <p>Other skills:</p>
+                <ul>
+                  <li>Photoshop</li>
+                  <li>Lightroom</li>
+                  <li>Illustrator</li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <img id="about_me" class="img-fluid" src="img/about_me_photo.jpg" alt="A photo of Russ Perry">
+              </div>
+            </div>
+        </div>
+      </article>
+
+      <!-- Portfolio -->
+      <article id="portfolio">
+        <div class="container">
+          <h1>Portfolio</h1>
+          <hr>
+
+          <div class="card-deck">
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="img/portfolio/earth_orbit.jpg" alt="Earth Orbit Animation">
+              <div class="card-body">
+                <h5 class="card-title">Earth Orbit Animation</h5>
+                <p class="card-text">This is an animation of the Earth orbiting the Sun made from HTML and CSS only. This was made during Brad Hussey's Udemy Course.</p>
+                <a href="https://rperry99.github.io/Earth_Orbit/" class="btn btn-primary">Take a look!</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="img/portfolio/jquery_car_racer.jpg" alt="jQuery Car Race">
+              <div class="card-body">
+                <h5 class="card-title">jQuery Car Race</h5>
+                <p class="card-text">A little game of "which car will make it to the end first". This was made with HTML, CSS, and jQuery. This was made during Brad Hussey's Udemy Course.</p>
+                <a href="https://rperry99.github.io/jQuery_Car_Race/" class="btn btn-primary">Take a look!</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="img/portfolio/tip_calculator.jpg" alt="JavaScript Tip Calculator">
+              <div class="card-body">
+                <h5 class="card-title">JavaScript Tip Calculator</h5>
+                <p class="card-text">A simple tip calculator using HTML, CSS, and JavaScript. You can split the tip between the amount of people paying for the bill. This was made during Brad Hussey's Udemy Course.</p>
+                <a href="https://rperry99.github.io/Tip_Calculator/" class="btn btn-primary">Take a look!</a>
+              </div><!-- .card body -->
+            </div> <!-- .card -->
+          </div><!-- .row -->
+          <div class="card-deck second-row">
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="img/portfolio/todo_list.jpg" alt="To Do List">
+              <div class="card-body">
+                <h5 class="card-title">To-Do List</h5>
+                <p class="card-text">A simple to-do list made using jQuery UI. This was made during Brad Hussey's Udemy Course.</p>
+                <a href="https://rperry99.github.io/todo_list/" class="btn btn-primary">Take a look!</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="img/portfolio/placeholder.jpg" alt="Coming Soon">
+              <div class="card-body">
+                <h5 class="card-title">Future Project</h5>
+                <p class="card-text">Placeholder for a future project.</p>
+                <a href="#" class="btn btn-primary disabled">Take a look!</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="img/portfolio/placeholder.jpg" alt="Coming Soon">
+              <div class="card-body">
+                <h5 class="card-title">Future Project</h5>
+                <p class="card-text">Placeholder for a future project.</p>
+                <a href="#" class="btn btn-primary disabled">Take a look!</a>
+              </div>
+            </div>
+          </div><!-- card-deck -->
+        </div>
+      </article>
+
+      <!-- Contact Me -->
+      <article id="contact">
+        <div class="container">
+          <h1>Contact Me</h1>
+          <hr>
+
+          <form action="">
+            <!-- Name -->
+            <div class="form-group">
+              <label for="inputName">Name</label>
+              <input type="text" class="form-control" id="inputName" placeholder="Name">
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+              <label for="inputEmail">Email address</label>
+              <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+
+            <!-- Text area -->
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </article>
+
+      <!-- Jquery & Popper -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="js/script.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
